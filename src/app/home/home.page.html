@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Form
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="auth-form">
+  
+  <div class="container">
+
+    <div class="logo">
+      <img src="../../assets/icon/logo.png">
+    </div>
+    <div>
+  
+      <ion-grid>
+        <ion-row>
+          <ion-col align-self-center>
+            <ion-button [routerLink]="['/sign-in']" expand="block" color="primary">Sign In</ion-button>
+            <hr>
+            <span class="dontHaveText">Dont have an account?</span>
+            <ion-button [routerLink]="['/sign-up']" expand="block" color="danger">Sign Up</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      
+    </div>
+
+  </div>
+
+</ion-content>
